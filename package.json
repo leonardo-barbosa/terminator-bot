@@ -1,0 +1,14 @@
+{
+  "name": "terminator-bot",
+  "version": "1.0.0",
+  "description": "A bot to terminate supporters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Leonardo Moura - Pagar.me",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2"
+  }
+}
