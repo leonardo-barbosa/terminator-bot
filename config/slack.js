@@ -8,10 +8,10 @@ module.exports = {
 		var text;
 
 		if(sup_name === req_slack_name){
-			texts = 'Suporter ' + sup_name + ' foi desativado com sucesso por ele mesmo.\nGood night sweet prince :sleeping:';
+			texts = 'Suporter ' + sup_name + ' foi desativado com sucesso por ele mesmo.\nGG Buddy, Good night :sleeping:';
 		}
 		else{
-			texts = 'Suporter ' + sup_name + ' foi desativado com sucesso pelo agente ' + req_slack_name + '!\nI will be back! :rage1:';
+			texts = 'Suporter ' + sup_name + ' foi desativado com sucesso pelo agente ' + req_slack_name + '!\nGGWP Boys! :rage1:';
 		}
 
 		Slack.api('chat.postMessage', {
